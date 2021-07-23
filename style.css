@@ -1,0 +1,100 @@
+
+/* Made by Muhammad Sami Khanday */
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Inline&family=Just+Another+Hand&display=swap');
+
+*{
+  margin: 5px;
+}
+.profile{
+  background-image: url('profile.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 150px;
+  width: 150px;
+  border-radius: 80px;
+  margin: auto;
+  margin-top: 15px;
+}
+.box{
+  margin: auto;
+  width : 300px;
+  border: solid red;
+  border-radius: 85px 20px 85px;
+  margin-top: 40px;
+
+}
+.main{
+  font-family: 'Bungee Inline', cursive;
+  font-size: 27px;
+  margin: auto;
+  text-align: center;
+}
+.quote{
+  font-family: 'Just Another Hand', cursive;
+  text-align: center;
+  font-size: 23px;
+}
+li{
+  display: inline-block;
+}
+.fa-github:hover,.fa-linkedin:hover,.fa-medium:hover{
+  background-color: brown;
+}
+.fa-github{
+  height: 30px;
+  width: 30px;
+  color:white;
+  background-color: black;
+  border-radius: 50%;
+  padding : 10px;
+}
+.fa-linkedin{
+  height: 30px;
+  width: 30px;
+  color:white;
+  background-color: #2A66C2;
+  border-radius: 50%;
+  padding : 10px;
+}
+.fa-medium{
+  height: 30px;
+  width: 30px;
+  color:white;
+  background-color: #F9C018;
+  border-radius: 50%;
+  padding : 10px;
+}
+.fa-moon-o:hover{
+  opacity: 0.7;
+}
+.fa-moon-o{
+  background-color: grey;
+  color:white;
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  padding:5px;
+  text-align: center;
+}
+
+.mode {
+  margin-top: 20px;
+  margin-right: 0;
+  float:right;
+}
+.change {
+  cursor: pointer;
+  
+}
+.dark{
+  background-color: #222;
+  color: #e6e6e6;
+}
+.cloud{
+  text-align: center;
+  color:black;
+  font-size: 19px;
+}
+footer{
+  text-align: center;
+}
